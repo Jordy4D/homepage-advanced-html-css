@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* width: 100%; */
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    font-family: Playfair Display, Roboto;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 15px;
+    color: #222;
+}
+
+header {
+    display: flex;
+    background: #f4f4f4;
+    color: #222;
+    padding: 20px 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    background: #0891B2;
+    color: #fff;
+    text-align: center;
+    padding: 0 0 20px 0;
+    margin-top: 20px;
+}
+
+#hero-background {
+    background: #0891B2;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    margin: 0;
+    /* padding: 0; */
+    /* width: 100%; */
+} 
+
+
+.headshot-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.socials img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
