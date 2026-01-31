@@ -1,1 +1,5 @@
-console.log("Hello, World!");
+const projectCards = document.querySelectorAll('.project-card');
+
+projectCards.forEach(card => {
+    
+})

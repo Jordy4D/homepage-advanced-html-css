@@ -3,7 +3,7 @@ html, body {
     padding: 0;
     height: 100%;
     /* width: 100%; */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 main {
@@ -66,8 +66,33 @@ footer {
     margin-bottom: 15px;
 }
 
-.socials img {
+.socials img,
+.socials {
+    display: flex;
     width: 30px;
     height: 30px;
     margin: 0 10px;
+}
+
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    /* gap: 20px; */
+    /* justify-content: center; */
+}
+
+.project-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
 }
